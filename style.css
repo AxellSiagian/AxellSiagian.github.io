@@ -1,0 +1,1373 @@
+:root{
+    --primary: white;
+    --bg: black;
+    --gold1: rgb(255, 214, 112);
+    --gold2: rgb(250, 214, 121);
+    --gold3: rgb(168, 141, 73);
+    --gold4: rgb(255, 198, 53);
+    --gold5: rgb(202, 161, 56);
+}   
+
+html{
+    scroll-behavior: smooth!important;
+}
+
+*{
+    padding: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: Garamond, serif;
+    /* background-color: var(--primary);*/
+    background-color: rgb(5, 5, 5);
+    color: #c7c7c7;
+}
+.layarutama{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.navbar{
+    background-color: rgba(5, 5, 5, 0.8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.1rem 2%;
+    border-bottom: 1px solid var(--gold1);
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+    z-index:2;
+    backdrop-filter: blur(4px);
+    transition: 0.5s;
+}
+.navbar-nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+.navbar .navbar-logo{
+    width: 50px;
+    height: 50px;
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: rgb(102, 102, 102);
+    font-style:italic;
+}
+.navbar .navbar-logo span{
+    color: var(--gold1);
+}
+.navbar .navbar-nav a{
+    color: var(--primary);
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    margin: 0 1rem;
+    padding: 10px;
+}
+.pickedoption{
+    border-radius: 15px;
+    background-color: rgba(255, 214, 112, 0.1);
+    color: var(--gold2);
+}
+.navbar .navbar-nav a:hover{
+    border-radius: 15px;
+    background-color: rgba(255, 214, 112, 0.1);
+    color: var(--gold2);
+}
+
+.navbar .navbar-icon a{
+    color: var(--primary);
+    margin: 0 0.5rem
+}
+.navbar .navbar-icon a:hover{
+    color: var(--gold1);
+}
+
+#menu{
+    display: none;
+}
+
+/* CSS Banner: HOME */
+/* ============================================================ */
+.Judul{
+    height: 140vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+}
+.JudulFAQ{
+    height: 78vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+}
+.kontenjudul-contFAQ{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.kontenjudul-cont{
+    width: 100%;
+    height: 55%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.kontenjudul{
+    margin-top: 100px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    width: 105%;
+    background-image: url(extras/BG1.jpg);
+    filter: blur(2px);
+    opacity: 65%;
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 5rem;
+    line-height: 0px;
+    animation-name: backgroundd;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+@keyframes backgroundd{
+    0%{
+        background-image: url(extras/BG1.jpg);
+    }
+    25%{
+        background-image: url(extras/BG2.jpg);
+    }
+    50%{
+        background-image: url(extras/BG3.jpg);
+    }
+    75%{
+        background-image: url(extras/BG4.jpg);
+    }
+    100%{
+        background-image: url(extras/BG1.jpg);
+    }
+}
+
+.judulfr{
+    color: rgb(182, 180, 180);
+    margin-top: -50vh; 
+    margin-left: 20%;
+    width: 100%;
+    height: 55vh;
+    font-size: 4rem;
+    opacity: 100%;
+    z-index: 0;
+    transform: rotate(0deg);
+}
+#underscore{
+    color: var(--primary);
+}
+#restoo{
+    color: rgb(255, 204, 77);
+    text-shadow: 
+    0 0 30px rgb(170, 132, 37),
+    0 0 50px rgb(255, 204, 75);
+}
+
+#hubungi{
+    text-shadow: 
+    0 0 10px var(--primary),
+    0 0 20px var(--primary);
+    color: rgba(255, 255, 255, 0.664);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    z-index: 1;
+}
+#hubungi p{
+    font-style: italic;
+    font-size: 2rem;
+    margin-top: -85px;
+    margin-bottom: 0px;
+}
+#hubungi:hover{
+    color: rgba(255, 255, 255, 0.87)
+}
+#hubungi:hover > .contlogohubungi{
+    transition: 0.5s;
+    padding-top: 10px;
+}
+.contlogohubungi{
+    transition: 0.5s;
+    width: 100%;
+    z-index: 1;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+#hubungilogo{
+    width: 30px;
+    height: 30px;
+}
+
+.deskripsi{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 1);
+    width: 100%;
+}
+.judull{
+    font-style: italic;
+    font-size: 4rem;
+    margin-left: 20rem;
+    width: 35%;
+    color: var(--gold5);
+}
+.isideskripsi{
+    font-size: 1.6rem;
+    margin-right: 20rem;
+    width: 65%;
+    text-align: justify;
+}
+
+@media(max-width:768px){
+    .Judul{
+        width: 103%;
+        margin-left:-7px;
+    }
+    .deskripsi{
+        padding-top: 10vh;
+        flex-direction: column;
+    }
+    .judull{
+        margin: 0rem 5rem;
+        width: 80%;
+    }
+    .isideskripsi{
+        margin: 0rem 5rem;
+        width: 80%;
+    }
+}
+
+/* CSS Banner: infoResto */
+/* ============================================================ */
+
+.infoResto{
+    height: 259.5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    background-color: var(--bg);
+}
+.introDeskripsi{
+    position: relative;
+    width: 100%;
+    height: 55vh;
+}
+.introDeskripsiBG{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 55vh;
+    background-image: url(extras/BG4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    opacity: 70%;
+    z-index: -1;
+}
+
+.pembagiankuliner{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+}
+.tekskuliner{
+    margin-top: -15px;
+    width: 50%;
+    height: 6em;
+    border-left: 5px solid var(--primary);
+    padding-left: 8px;
+    font-size: 2rem;
+}
+#judulInfo{
+    color: var(--primary);
+    margin-top: -63vh;
+    padding-top: 17vh;
+    width: 100%;
+    height: 55vh;
+    font-size: 3rem;
+    opacity: 100%;
+    z-index: 1;
+    transform: rotate(0deg);
+    padding-left: 10%;
+}
+
+.isidesc1{
+    margin-top: 8vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gambar1{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 55%;
+    height: 100%;
+    overflow: hidden;
+    align-items: center;
+}
+#gambarr1{
+    object-fit: cover;
+    transition: 0.5s ease-in-out;
+    height: 68vh;
+    width: 100%;
+    opacity: 0.8;
+    transform: scale(1);
+    filter: blur(0.5px);
+    filter: grayscale(20%);
+
+}
+#gambarr1:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    filter: blur(0px);
+}
+.desc1{
+    text-align: justify;
+    padding-top: 10vh;
+    height: 68vh;
+    width: 45%;
+    font-size: 1.6rem;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.desc1 h1{
+    color: var(--gold3);
+}
+
+.isidesc2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.gambar2{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 55%;
+    overflow: hidden;
+}
+#gambarr2{
+    object-fit: cover;
+    transition: 0.5s ease-in-out;
+    height: 68vh;
+    width: 100%;
+    opacity: 0.8;
+    transform: scale(1.02);
+    filter: blur(0.5px);
+    filter: grayscale(20%);
+}
+#gambarr2:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    filter: blur(0px);
+}
+.desc2{
+    text-align: justify;
+    padding-top: 10vh;
+    height: 68vh;
+    width: 45%;
+    font-size: 1.6rem;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.desc2 h1{
+    color: var(--gold3);
+}
+
+.isidesc3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.gambar3{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 55%;
+    overflow: hidden;
+}
+#gambarr3{
+    object-fit: cover;
+    transition: 0.5s ease-in-out;
+    height: 68vh;
+    width: 100%;
+    opacity: 0.8;
+    transform: scale(1);
+    filter: blur(0.5px);
+    filter: grayscale(20%);
+}
+#gambarr3:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    filter: blur(0px);
+}
+.desc3{
+    text-align: justify;
+    padding-top: 10vh;
+    height: 68vh;
+    width: 45%;
+    font-size: 1.6rem;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.desc3 h1{
+    color: var(--gold3);
+}
+
+@media(max-width:768px){
+    .infoResto{
+        height: 463.5vh;
+    }
+    .isidesc1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .gambar1{
+        width:100%;
+    }
+    .desc1{
+        width: 100%;
+    }
+
+    .isidesc2{
+        width: 100%;
+        display: flex;
+
+        flex-direction: column-reverse;
+    }
+    .gambar2{
+        width:100%;
+    }
+    .desc2{
+        width: 100%;
+    }  
+    
+    .isidesc3{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .gambar3{
+        width:100%;
+    }
+    .desc3{
+        width: 100%;
+    }
+}
+
+
+/* CSS Banner: kontak */
+/* ============================================================ */
+.break1{
+    height: 3em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    background-color: var(--bg);
+}
+#kontak{
+    height: 88vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    padding-top: 10vh;
+    background-color: var(--bg);
+}
+.judulkontak{
+    padding-top: 4vh;
+    padding-bottom: 8vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(extras/BG8.jpg);
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    color: var(--bg);
+}
+#judulkontakk{
+    font-size: 3.5rem;
+    opacity: 1;
+}
+#isijudulkontakk{
+    font-size: 1.6rem;
+    margin-top: -25px;
+}
+
+.isikontak{
+    margin-top: -50px;
+    display: flex;
+    flex-direction: row;
+    color: var(--primary);
+}
+
+.isikontakemail{
+    max-width: 33.3%;
+    text-align: center;
+}
+.kontakemail{
+    margin-left: 1%;
+    background-color: rgb(17, 17, 17,0.8);
+    backdrop-filter: blur(4px);
+    width: 98%;
+    height: 100%;
+    padding: 10px;
+    padding-top: 15px;
+}
+.kontakemail:hover{
+    background-color: rgba(24, 24, 24, 0.8);
+    backdrop-filter: blur(10px);
+}
+#logoemaill{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}
+.judulemail{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.teksemail{
+    font-size: 1rem;
+    width:60%;
+    margin-left: 20%;
+    text-align: justify;
+}
+.isiemail{
+    padding-top: 7%;
+    font-size: 2rem;
+}
+
+.isikontaktelepon{
+    max-width: 33.3%;
+    text-align: center;
+}
+.kontaktelepon{
+    background-color: rgb(17, 17, 17,0.8);
+    backdrop-filter: blur(4px);
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    padding-top: 20px;
+}
+.kontaktelepon:hover{
+    background-color: rgba(24, 24, 24, 0.8);
+    backdrop-filter: blur(10px);
+}
+#logoteleponn{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.judultelepon{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.tekstelepon{
+    font-size: 1rem;
+    width:60%;
+    margin-left: 20%;
+    text-align: justify;
+}
+.isiteleponindonesia{
+    margin-top: 50px;
+}
+#indo1{
+    font-size: 2rem;
+}
+#indo2{
+    margin-top: -20px;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+#inter1{
+    font-size: 2rem;
+}
+#inter2{
+    margin-top: -20px;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+
+
+.isikontakchatbot{
+    max-width: 33.3%;
+    text-align: center;
+}
+.kontakchatbot{
+    margin-left: 1%;
+    background-color: rgb(17, 17, 17,0.8);
+    backdrop-filter: blur(4px);
+    width: 98%;
+    height: 100%;
+    padding: 10px;
+    padding-top: 20px;
+}
+.kontakchatbot:hover{
+    background-color: rgba(24, 24, 24, 0.8);
+    backdrop-filter: blur(10px);
+}
+#logochatbott{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.judulchatbot{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.tekschatbot{
+    font-size: 1rem;
+    width:60%;
+    margin-left: 20%;
+    text-align: justify;
+}
+.tombolchatbot{
+    margin-top: 21%;
+    text-decoration: none;
+}
+#tombolchatbott{
+    background-color: rgb(209, 209, 209);
+    padding: 12px 24px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+#tombolchatbott:visited{
+    color: grey;
+}
+#tombolchatbott:link{
+    color: grey;
+}
+#tombolchatbott:hover{
+    background-color: var(--primary);
+}
+
+@media(max-width:768px){
+    #kontak{
+        height: 140vh;
+    }
+    .isikontak{
+        flex-direction: column;
+    }
+    .isikontakemail{
+        max-width: 100%;
+    }
+    .isikontaktelepon{
+        max-width: 100%;
+    }
+    .isikontakchatbot{
+        max-width: 100%;
+    }
+    .kontakemail{
+        border: 2px solid var(--primary);
+    }
+    .kontaktelepon{
+        border: 2px solid var(--primary);
+        width: 98%;
+        margin-left: 1%;
+    }
+    .kontakchatbot{
+        border: 2px solid var(--primary);
+    }
+}
+
+
+/* CSS Banner: footer */
+/* ============================================================ */
+.footer{
+    background-color: rgb(24, 24, 24);
+    height: 32vh;
+    width: 102%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: -8px;
+    padding: 0;
+    padding-left: 15%;
+}
+
+.cont-bottommenu{
+    background-color: rgb(24, 24, 24);
+    width: 20%;
+    height: 75%;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.cont-bottommenu h1{
+    font-size: 1.5rem;
+    color: var(--primary);
+    margin-bottom: 20px;
+}
+.bottommenu-items:visited{
+    color: var(--primary);
+}
+.bottommenu-items:link{
+    color: var(--primary);
+}
+.bottommenu-items{
+    margin: 9px 0px;
+}
+
+.cont-alamat{
+    background-color: rgb(24, 24, 24);
+    width: 25%;
+    height: 75%;
+    margin-right: 10%;
+    color: var(--primary);
+    padding-left: 20px;
+}
+.cont-alamat p{
+    margin: 3px 0px;
+}
+
+.cont-sosmed{
+    padding-left: 20px;
+    background-color: rgb(24, 24, 24);
+    width: 27%;
+    height: 75%;
+}
+.sosmedtop{
+    display: flex;
+}
+.cont-sosmed h1{
+    margin-bottom: 8px;
+    font-size: 1.6rem;
+    color: var(--primary);
+    margin-right: 5%;
+}
+.sosmedfooter{
+    padding: 0px 5px;
+}
+.sosmedfooterlogo{
+    margin-top: 10%;
+}
+.sosmedfooter:visited{
+    color: var(--primary);
+}
+.sosmedfooter:link{
+    color: var(--primary);
+}
+.mycredit{
+    color: var(--primary);
+    font-size: 1.1rem;
+}
+.me{
+    margin: 14px 0px;
+}
+@media(max-width:768px){
+    .sosmedtop{
+        margin-left: 20%;
+    }
+    .footer{
+        flex-direction: column;
+        height: 65vh;
+    }
+    .cont-bottommenu{
+        width: 80%;
+        margin:0;
+        margin-left: -15%;
+        padding: 0;
+        align-items: center;
+    }
+    .cont-alamat{
+        width: 80%;
+        margin: 10px 0px;
+        margin-left: -15%;
+        padding: 0;
+        text-align: center;
+    }
+    .cont-sosmed{
+        width: 80%;
+        margin:0;
+        margin-left: -15%;
+        padding: 0;
+        text-align: center;
+        align-items: center;
+    }
+}
+
+/*Settingan Layar*/
+/*Laptop*/
+@media(max-width: 1366px){
+    html{
+        font-size: 75%;
+    }
+}
+
+@media(max-width:768px){
+    html{
+        font-size: 62.5%;
+    }
+    #menu{
+        display: inline-block;
+    }
+    .navbar-nav{
+        transition: 0.5s ease-in-out;
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 30rem;
+        height: 100vh;
+        background-color: rgba(160, 118, 12, 0.5);
+        border-top: 1px solid rgba(255, 214, 112, 0.4);
+        backdrop-filter: blur(5px);
+        padding-top: 10px;
+    }
+    .navbar .navbar-nav a{
+        color:var(--primary);
+        font-size: 2rem;
+    }
+    .navbar-nav a{
+        margin-top: 5px;
+        size: 100px;
+    }
+    .navbarItems.active{
+        font-size: 10em;
+    }
+    .navbar .navbar-nav.active{
+        right: 0;
+        flex-direction: column;
+    }    
+}
+
+@media(prefers-reduced-motion){
+    .hidden{
+        opacity: 0;
+        transform: translateY(-10%);
+        filter: blur(4px);
+        transition: all 1.5s;
+    }
+    .hidden2{
+        opacity: 0;
+        transform: translateX(-10%);
+        filter: blur(4px);
+        transition: all 1.5s;
+    }
+    .hidden3{
+        opacity: 0;
+        transform: translatex(-20%);
+        filter: blur(8px);
+        transition: all 2s;
+    }
+    .hidden4{
+        opacity: 0;
+        transform: translatex(-20%);
+        filter: blur(8px);
+        animation-delay: 2s;
+        transition: all 2s;
+    }
+}
+.show{ 
+    filter: blur(0);
+    opacity: 1;
+    transform: translateY(0);
+    transform: translateX(0);
+}
+
+
+
+/* ================================================================== */
+/* PAGE 2 - LOCATIOON */
+/* ================================================================== */
+.lokasiril{
+    width:100%;
+    height: 80vh;
+    background-color: var(--bg);
+    display: flex;
+    flex-direction: row;
+}
+.fotolokasi{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(15, 15, 15);
+    padding-top: 0%;
+    padding-left: 0%;
+}
+#fotogedunk{
+    background-color: var(--primary);
+    padding: 15px;
+    width: 70%;
+    margin-top: 15%;
+    margin-left: 25%;
+}
+.cont-alamatt{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(15, 15, 15);
+}
+.alamatnshit{
+    color: var(--primary);
+    padding-left: 10px;
+    margin-top: 15%;
+    background-color: rgb(15, 15, 15);
+}
+.pinlokasi, .pinlokasi:link, .pinlokasi:visited{
+    padding: 10px;
+    color: var(--primary);
+    width: 60px;
+    height: 60px;
+    margin-top: 6%;
+}
+
+.pinlokasi:hover{
+    background-color: rgba(255, 255, 255, 0.205);
+    border-radius: 30px;
+}
+
+@media(max-width:768px){
+    .lokasiril{
+        flex-direction: column;
+        height: 110vh;
+    }
+    .fotolokasi{
+        width: 100%;
+    }
+    #fotogedunk{
+        margin-left: 15%;
+    }
+    .cont-alamatt{
+        width: 100%;
+        margin-top: 0;
+        text-align: center;
+    }
+}
+
+
+/* ================================================================== */
+/* PAGE 3 - FAQs */
+/* ================================================================== */
+.faq{
+    width: 100%;
+    height: minmax(50vh,100vh);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding-top: 2rem;
+}
+.contfaq{
+    padding-top: 3rem;
+    width: 50%;
+    margin: auto;
+}
+.contfaq details[open] summary ~ *{
+    animation: open 0.5s ease-in-out;
+}
+@keyframes open{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.contfaq details summary{
+    font-size: 2.1rem;
+    width: 100%;
+    padding: 1rem 0px;
+    position: relative;
+    cursor: pointer;
+}
+.contfaq details summary::-webkit-details-marker{
+    display: none;
+}
+.contfaq details summary{
+    padding: 1.1rem 0rem;
+    outline: 0;
+    border-top: 1px solid var(--primary);
+    border-bottom: 1px solid var(--primary);
+}
+.contfaq details p{
+    font-size: 1.2rem;
+    margin: 2rem 0rem;
+}
+
+/* ================================================================== */
+/* PAGE 4 - Menu */
+/* ================================================================== */
+.pricing{
+    width: 100%;
+    height: minmax(150vh,200vh);
+    background-color: var(--bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cont-menu{
+    width: 55%;
+    height: 100%;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.minuman{
+    padding: 3rem;
+    width: 100%;
+    height: 60%;
+    background-color: rgb(24, 24, 24);
+}
+.judulminuman{
+    color: var(--primary);
+    width: 100%;
+    border-bottom: 2px solid var(--primary);
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.judulminuman h1 span{
+    color: var(--gold1);
+}
+.judulminuman h1{
+    font-size: 2.6rem;
+    margin-left: 10px;
+}
+.deskripsiminuman{
+    color: rgb(172, 172, 172);
+    font-size: 1.2rem;
+    padding: 2px;
+    font-style: italic;
+}
+.minumanbiasa{
+    width: 100%;
+    height: minmax(40%,55%);
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    padding: 0px 15px;
+}
+.judulminumanbiasa{
+    font-size: 1.7rem;
+    color: var(--primary);
+    width: 50%;
+    border-bottom: 1px solid var(--primary);
+    padding-left: 10px;
+}
+.isiminumanbiasa{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.minumankiri{
+    width: 50%;
+}
+.minumankanan{
+    width:50%;
+}
+.isiminumanbiasa p{
+    font-size: 1.2rem;
+    color: var(--primary);
+    padding: 5px 10px;
+}
+.isiminumanbiasa p:hover{
+    background-color: rgba(255, 255, 255, 0.068);
+    border-radius: 5px;
+}
+.isiminumanbiasa p span{
+    margin-right: 30px;
+    float: right;
+    right: 0;
+    color: var(--gold4);
+}
+
+.minumanalkohol{
+    padding: 0px 1.5rem;
+    margin-left: -1%;
+    width: 102%;
+    height: 30%;
+    background-color: rgba(90, 65, 0, 0.5);
+}
+.judulminumanalkohol{
+    font-size: 1.7rem;
+    color: var(--primary);
+    width: 50%;
+    border-bottom: 1px solid var(--primary);
+    padding: 0.3rem 6px 0px 1.5rem;
+    display: flex;
+    align-items: center;
+}
+#logoalkohol{
+    margin-left: 10px;
+}
+.isialkohol{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.alkoholkiri, .alkoholkanan{
+    width: 50%;
+}
+.isialkohol p{
+    font-size: 1.2rem;
+    color: var(--primary);
+    padding: 5px 10px;
+}
+.isialkohol p:hover{
+    background-color: rgba(255, 255, 255, 0.068);
+    border-radius: 5px;
+}
+.isialkohol p span{
+    margin-right: 30px;
+    float: right;
+    right: 0;
+    color: var(--gold4);
+}
+
+
+.makanan{
+    padding: 5rem 3.5rem;
+    width: 100%;
+    height: 45%;
+    background-color: rgb(24, 24, 24);
+    /* background-color: pink; */
+}
+.judulmakanan{
+    color: var(--primary);
+    width: 100%;
+    border-bottom: 2px solid var(--primary);
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.judulmakanan h1 span{
+    color: var(--gold1);
+}
+.judulmakanan h1{
+    font-size: 2.6rem;
+    margin-left: 10px;
+}
+.deskripsimakanan{
+    color: rgb(172, 172, 172);
+    font-size: 1.2rem;
+    padding: 2px;
+    font-style: italic;
+}
+.isimakanan{
+    width: 100%;
+    height: minmax(40%,50%);
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    padding: 0px 15px;
+}
+.makanankiri, .makanankanan{
+    width:50%;
+}
+.isimakanan p{
+    font-size: 1.2rem;
+    color: var(--primary);
+    padding: 5px 10px;
+}
+.isimakanan p:hover{
+    background-color: rgba(255, 255, 255, 0.068);
+    border-radius: 5px;
+}
+.isimakanan p span{
+    margin-right: 30px;
+    float: right;
+    right: 0;
+    color: var(--gold4);
+}
+
+.chefcheck{
+    padding-top: 5px;
+    margin-left: 5px;
+    width: 15px;
+    height: 15px;
+    justify-content: center;
+    align-self: center;
+}
+.chefrekomen{
+    font-size: 1.4rem;
+    font-style: oblique;
+    padding-left: 2.5rem;
+    width: 100%;
+    height: 6rem;
+    background-color: rgb(24, 24, 24);
+}
+.chefchecka{
+    padding-top: 5px;
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-self: center;
+}
+
+@media(max-width:768px){
+    .makanankiri, .makanankanan{
+        width: 100%
+    }
+    .isimakanan{
+        flex-direction: column;
+    }
+    .minumankiri, .minumankanan{
+        width: 100%;
+    }
+    .alkoholkiri, .alkoholkanan{
+        width: 100%;
+    }
+    .isialkohol{
+        flex-direction: column;
+    }
+    .isiminumanbiasa{
+        flex-direction: column;
+    }
+    .judulminumanalkohol{
+        width: 100%;
+    }
+    .judulminumanbiasa{
+        width: 100%;
+    }
+    .cont-menu{
+        width: 90%;
+    }
+}
+
+.pricing-search{
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+    font-size: 2rem;
+    width: 100%;
+    height: minmax(150vh, 200vh);
+    background-color: var(--bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bagiansearch{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.bagiansearch label{
+    font-size: 3rem;
+    color: var(--primary);
+    display: flex;
+    align-items: center;
+}
+.bagiansearch label b{
+    margin-left: 10px;
+}
+.search{
+    font-size: 2.5rem;
+    padding: 0.8rem 1.1rem;
+    font-family: Garamond, serif;
+}
+
+.itemmenu{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+.item{
+    border-top: 1px solid var(--primary);
+    border-bottom: 1px solid var(--primary);
+    padding: 5px;
+    width: 100%;
+    background-color: var(--bg);
+    display: none;
+    flex-direction: column;
+}
+.item:hover > .deskripsiitem{
+    display: flex;
+}
+.item:hover > .deskripsiitem{
+    display: flex;
+}
+.namaitem{
+    width: 100%;
+    margin-left: 10px;
+    font-size: 2rem;
+}
+.contnamaitem{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.hargaitem{
+    margin-right: 20px;
+    color: var(--gold4);
+    float: right;
+}
+.deskripsiitem{
+    padding-bottom:8px;
+    font-size: 1.4rem;
+    margin: 5px 22px;
+    display: none;
+}
+.hideitem{
+    display: flex;
+} 
+.hideitemempty{
+    display: none;
+}
+
+/* ================================================================== */
+/* EASTER EGGS */
+/* ================================================================== */
+.eastereggfullscreen{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg);
+}
+.bgplanet{
+    width: 100%;
+    height: 100%;
+}

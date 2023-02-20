@@ -1,0 +1,75 @@
+Text for TTS web website
+
+**home**:
+-Dutak resto:
+Dutak Resto adalah restoran dengan sejarah yang kaya, yang bermula sejak Indonesia merdeka. Dengan reputasi kuliner yang sangat baik, Dutak Resto telah menjadi institusi tercinta bagi para pecinta makanan yang ingin merasakan yang terbaik dari masakan Indonesia. Yang membedakan Dutak Resto dari restoran fine dining lainnya adalah komitmennya untuk mendapatkan bahan-bahan dari petani/peternak lokal. Hal ini tidak hanya membantu mendukung komunitas lokal, tetapi juga memastikan tamu dapat menikmati bahan-bahan terbaik yang segar dan berkualitas tinggi.
+
+Meskipun sudah memiliki satu bintang Michelin, Dutak Resto tidak berpuas diri. Tim selalu berusaha untuk meningkatkan kualitas dan menargetkan untuk meraih bintang Michelin kedua dalam waktu dekat. Menu restoran ini merupakan bukti dari keahlian dan kreativitas koki-kokinya, yang telah dengan hati-hati menciptakan hidangan yang indah dipandang dan lezat dimakan. Dengan sejarahnya yang kaya, komitmennya untuk menggunakan bahan-bahan lokal, dan dedikasinya untuk keunggulan, Dutak Resto adalah tempat yang wajib dikunjungi bagi siapa saja yang ingin merasakan yang terbaik dari kuliner Indonesia.
+
+
+info resto:
+-Konsep menu:
+Konsep di balik menu di restoran ini adalah komitmen untuk mengembangkan kuliner Indonesia tanpa mengurangi keasliannya. Tujuannya adalah untuk meningkatkan hidangan lokal menjadi standar dunia untuk fine dining sambil tetap mempertahankan cita rasa dan teknik asli yang membuat kuliner Indonesia unik. 
+Dengan menggunakan bahan-bahan yang diproduksi secara lokal, para koki dapat menciptakan hidangan yang memamerkan beragam rasa dan gaya masak yang berasal dari seluruh kepulauan Indonesia. Menu tersebut merayakan warisan kuliner Indonesia yang direimajinasikan untuk lidah modern. Tamu dapat menikmati pengalaman bersantap yang tak terlupakan, yang menawarkan yang terbaik dari dua dunia - hidangan tradisional Indonesia yang diangkat ke level fine dining, tetapi tetap mudah diakses dan dapat dinikmati oleh semua orang.
+
+-Bahan segar:
+Pemilihan bahan-bahan untuk restoran ini mencerminkan komitmen untuk keberlanjutan dan kualitas. Hanya bahan-bahan segar yang diperoleh secara berkelanjutan yang digunakan untuk memastikan hidangan yang dihidangkan memiliki kualitas terbaik. Para koki sangat memperhatikan asal usul bahan mereka yang didapatkan secara lokal, yang tidak hanya mengurangi dampak karbon restoran tetapi juga mendukung komunitas setempat. 
+Menu ini sepenuhnya organik, yang berarti tidak ada bahan tambahan atau bahan kimia yang digunakan dalam persiapan hidangan. Ini memastikan bahwa makanan tidak hanya lezat, tetapi juga sehat dan bergizi untuk tubuh. Dengan hanya menggunakan bahan terbaik yang tersedia, restoran ini memberikan pengalaman bersantap yang tidak hanya memuaskan tetapi juga berkelanjutan, dan memberikan kontribusi untuk masa depan yang lebih baik bagi semua orang.
+
+-Evolusi Dutak Resto:
+Sebagai salah satu restoran tertua di Salatiha, restoran ini telah memainkan peran yang signifikan dalam pertumbuhan dan perkembangan kuliner Indonesia selama beberapa dekade terakhir. Dengan komitmen untuk melestarikan hidangan tradisional sambil mengangkatnya ke tingkat yang lebih tinggi, restoran ini berada di garis depan gerakan untuk memperkenalkan keunggulan kuliner Indonesia ke dunia. 
+Dengan mempromosikan bahan-bahan lokal dan metode memasak tradisional, restoran ini membantu menciptakan identitas budaya yang lebih kuat, sambil juga memberikan kontribusi untuk masa depan yang lebih berkelanjutan bagi seluruh rakyat Indonesia. Pengalaman di bidang per-laundry-an merupakan kesempatan yang memberikan pengalaman bidang bisnis yang luar biasa. Pengalaman ini merupakan salah satu faktor penting dalam memotivasi kita untuk terus berkembang.
+
+
+contact:
+-email:
+Kami menyediakan kontak melalui email. Silakan bertanya melalui email dengan subjek menyesuaikan. Tersedia pada hari Senin sampai Jumat, jam 08:00 hingga 18:00 WIB.
+kontak.kami@dutakresto.com
+
+-telepon:
+Kami menyediakan kontak melalui telpon. Silakan telepon nomor tertera di bawah ini. Tersedia pada hari Senin sampai Jumat, jam 08:00 hingga 18:00 WIB.
+indonesia: +62-839-7270-101
+internasional: +62-839-7270-202
+
+-chatbot:
+Kami menyediakan kontak melalui chatbot. Silakan klik link di bawah untuk mengakses chatbot terbaru. Tersedia setiap hari, 24/7.
+chatbutton link: https://chat.openai.com/chat
+
+
+footer:
+-home, about, etc
+(similar to the navbar)
+
+-alamat:
+Dutak Resto,
+No.727b
+Jln. Kemiri Barat
+Kec. UKSW Setia
+Salatiga
+Jawa tengah
+Indonesia
+50711
+
+**FAQs**:
+1. Jenis masakan apa yang disajikan restoran anda?
+Restoran kami mengkhususkan diri dalam masakan Indonesia yang berkualitas tinggi. Menu kami menampilkan berbagai hidangan tradisional yang terbuat dari bahan-bahan segar dan lokal.
+2. Jam operasi restoran anda?
+Restoran kami buka setiap hari untuk layanan makan siang dan makan malam. Jam operasional kami adalah dari pukul 11 pagi hingga 10 malam.
+3. Apakah restoran anda menyediakan opsi vegetarian?
+Ya, kami menawarkan berbagai pilihan vegetarian dan bebas gluten di menu kami. Tolong beri tahu staf kami tentang batasan atau preferensi diet Anda, dan kami akan melakukan yang terbaik untuk memenuhi kebutuhan Anda.
+4. Bisakah restoran mengakomodasi kelompok atau acara besar?
+Ya, kami dapat menampung kelompok besar dan acara. Silakan hubungi kami sebelumnya untuk membahas kebutuhan Anda dan membuat pengaturan yang diperlukan.
+5. Apakah restoran menyediakan opsi takeaway?
+ Ya, kami menawarkan opsi pengiriman dan takeaway. Silakan cek situs web kami atau hubungi kami langsung untuk informasi lebih lanjut dan memesan.
+6. Apa dresscode untuk restoran anda?
+Kode berpakaian kami adalah smart casual. Kami memohon tamu untuk tidak mengenakan pakaian yang terlalu santai, seperti pakaian atletik atau pakaian pantai.
+7. Apakah restoran Anda menyediakan minuman alkohol?
+Ya, kami memiliki bar dan menawarkan berbagai pilihan anggur, bir, dan minuman beralkohol. Kami juga menawarkan berbagai pilihan minuman non-alkohol dan mocktail.
+8. Apakah restoran memiliki tempak parkir?
+Ya, kami memiliki tempat parkir yang tersedia untuk tamu kami. Namun, harap dicatat bahwa tempat parkir mungkin terbatas selama jam sibuk.
+
+**LOKASI**:
+description:
+Lokasi Dutak Resto yang berdekatan dengan mall populer dan air mancur yang indah menjadikannya destinasi kuliner yang sangat diminati. Restoran kami hanya beberapa menit dari pusat kota, sehingga mudah diakses oleh warga lokal maupun wisatawan. Baik Anda mencari makan siang santai atau makan malam romantis, kami menyediakan suasana yang sempurna untuk menikmati hidangan Indonesia terbaik. Komitmen kami untuk menggunakan bahan-bahan segar dan berkelanjutan serta dedikasi kami untuk merevolusi industri kuliner berarti setiap hidangan yang kami sajikan adalah sebuah mahakarya.
+
+Di Dutak Resto, kami berusaha untuk mengangkat kuliner Indonesia ke level yang lebih tinggi. Menu kami menawarkan sentuhan unik pada hidangan klasik, sehingga menjadikannya pengalaman kuliner yang tak terlupakan. Dengan pendekatan inovatif kami, Dutak Resto telah mendapat tempat sebagai penggerak tren di kancah kuliner, dan kami terus mendorong batas-batas kemungkinan dalam kuliner Indonesia. Jadi datanglah dan nikmati hidangan lezat kami, dikelilingi keindahan dan kemudahan lokasi kami.

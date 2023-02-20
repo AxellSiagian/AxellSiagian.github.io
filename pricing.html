@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu - TTS 672021213</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- feather (Feature icons) -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- css -->
+    
+  </head>
+  <body>
+    <div class = "layarutama">
+      <!-- navbar start -->
+      <nav class="navbar">
+        <!-- <a href="#" class="navbar-logo">Dutak_<span>Resto</span></a> -->
+        <a href ="easteregg.html">
+          <img src="extras/Logo.png" class="navbar-logo">
+        </a>
+        <div class="navbar-nav">
+          <a class = 'navbarItems' href="home.html">Home</a>
+          <a class = 'pickedoption navbarItems' href="pricing.html">Menu</a>
+          <a class = 'navbarItems' href="faq.html">FAQs</a>
+          <a class = 'navbarItems' href="lokasi.html">Location</a>
+        </div>
+
+        <div class="navbar-icon">
+            <!-- <a href="#" id="search"><i data-feather="search"></i></a> -->
+            <a href="pricing.html" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+            <a href="#menu" id="menu"><i data-feather="menu"></i></a>
+        </div> 
+
+        
+      </nav>
+      <!-- navbar end -->
+
+      <!-- Banner -->
+      <section class="JudulFAQ">
+        <div class="kontenjudul-contFAQ">
+          <div class="kontenjudul"></div>
+          <div class="judulfr">
+            <h1 class="hidden3">Menu<span id="underscore">_</span><span id="restoo">Resto</span></h1>
+          </div>
+          <a id="hubungi" href="#kontak">
+            <p>Hubungi kami!</p>
+            <div class="contlogohubungi">
+              <i id="hubungilogo" data-feather="chevrons-down"></i>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="pricing-search">
+        <div class="bagiansearch">
+          <label>
+            <i data-feather="search"></i>
+            <b>Cari Menu</b>
+          </label>
+          <input type="search" class="search" placeholder="Makanan/Minuman" data-search>
+        </div>
+
+        <div class="itemmenu" data-menu></div>
+
+        <template template-item>
+          <div class="item">
+            <div class="contnamaitem">
+              <p data-nama class="namaitem"></p>
+              <span data-harga class="hargaitem"></span>
+            </div>
+            <div class="deskripsiitem" data-deskripsi></div>
+          </div>
+      </template>
+
+      </section>
+
+      <section class="pricing">
+        <div class="cont-menu">
+          <div class="minuman">
+            <div class="judulminuman">
+              <i data-feather="coffee"></i>
+              <h1>Minuman ala <span>Dutak</span></h1>
+            </div>
+            <div class="deskripsiminuman">
+              <p>Minuman di Dutak Resto terkenal dengan kualitas bahan-bahannya yang segar dan nikmat, menawarkan pengalaman minum yang tak terlupakan.</p>
+            </div>
+            <div class="minumanbiasa">
+              <div class="judulminumanbiasa">
+                <p>Minuman Tanpa Alkohol</p>
+              </div>
+              <div class="isiminumanbiasa">
+                <div class="minumankiri">
+                  <p>Es Kelapa Muda<i class="chefcheck" data-feather="check"></i><span>85k</span></p>
+                  <p>Jus Jeruk Kweni<span>75k</span></p>
+                  <p>Es Timun Suri<span>70k</span></p>
+                  <p>Teh Jahe Susu<span>65k</span></p>
+                </div>
+                <div class="minumankanan">
+                  <p>Jus Alpukat<span>80k</span></p>
+                  <p>Air Tebu<i class="chefcheck" data-feather="check"></i><span>75k</span></p>
+                  <p>Jus Buah Naga<i class="chefcheck" data-feather="check"></i><span>60k</span></p>
+                  <p>Es Campur<span>85k</span></p>
+                </div>
+
+              </div>
+            </div>
+            <div class="minumanalkohol">
+              <div class="judulminumanalkohol">
+                <p>Minuman Alkohol</p>
+                <i id="logoalkohol" data-feather="thumbs-up"></i>
+              </div>
+              <div class="isialkohol">
+                <div class="alkoholkiri">
+                  <p>Martini Buah Naga<span>200k</span></p>
+                  <p>Lychee Martini<span>180k</span></p>
+                </div>
+                <div class="alkoholkanan">
+                  <p>Negroni Kopi<i class="chefcheck" data-feather="check"></i><span>150k</span></p>
+                  <p>Mojito Mangga<i class="chefcheck" data-feather="check"></i><span>1.317k</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="makanan">
+            <div class="judulmakanan">
+              <i data-feather="zap"></i>
+              <h1>Makanan ala <span>Dutak</span></h1>
+            </div>
+            <div class="deskripsimakanan">
+              <p>Makanan di Dutak Resto dibuat dengan cinta dan perhatian pada detail, menggabungkan bahan-bahan lokal yang berkualitas dengan teknik modern yang menciptakan rasa yang luar biasa.</p>
+            </div>
+            <div class="isimakanan">
+              <div class="makanankiri">
+                <p>Sate Ayam<i class="chefcheck" data-feather="check"></i><span>250k</span></p>
+                <p>Nasi Goreng Spesial<span>372k</span></p>
+                <p>Gado-Gado<span>275k</span></p>
+                <p>Sop Buntut<span>200k</span></p>
+                <p>Pepes Ikan<span>350k</span></p>
+                <p>Rendang Daging<i class="chefcheck" data-feather="check"></i><span>225k</span></p>
+                <p>Soto Ayam<i class="chefcheck" data-feather="check"></i><span>400k</span></p>
+              </div>
+              <div class="makanankanan">
+                <p>Bakmi Goreng<span>250k</span></p>
+                <p>Ayam Goreng<span>325k</span></p>
+                <p>Nasi Uduk<span>475k</span></p>
+                <p>Bakso<span>175k</span></p>
+                <p>Cap Cay<span>68k</span></p>
+                <p>Martabak<i class="chefcheck" data-feather="check"></i><span>310k</span></p>
+                <p>Mie Ayam<span>123k</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="chefrekomen">
+            <p><i class="chefchecka" data-feather="check"></i>Rekomendasi dutak Resto</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="kontak">
+        <div class="judulkontak">
+          <h1 id="judulkontakk">Hubungi Kami</h1>
+          <p id="isijudulkontakk">Silakan bertanya mengenai reservasi tempat, bahan alergen pada menu, lokasi restoran, dan sebagainya</p>
+        </div>
+        <div class="isikontak">
+          <div class="isikontakemail">
+            <div class="kontakemail">
+              <div class="logoemail">
+                <i id = "logoemaill" data-feather="mail"></i>
+              </div>
+              <div class="judulemail"><b>Melalui Email</b></div>
+              <div class="teksemail">
+                <p>Kami menyediakan kontak melalui email. Silakan bertanya melalui email dengan subjek menyesuaikan. Tersedia pada hari Senin sampai Jumat, jam 08:00 hingga 18:00 WIB.</p>
+              </div>
+              <div class="isiemail">
+                <p>kontak.kami@dutakresto.com</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="isikontaktelepon">
+            <div class="kontaktelepon">
+              <div class="logotelepon">
+                <i id="logoteleponn" data-feather="phone-call"></i>
+              </div>
+              <div class="judultelepon"><b>Melalui Telepon</b></div>
+              <div class="tekstelepon">
+                <p>Kami menyediakan kontak melalui telpon. Silakan telepon nomor tertera di bawah ini. Tersedia pada hari Senin sampai Jumat, jam 08:00 hingga 18:00 WIB.</p>
+              </div>
+              <div class="isiteleponindonesia">
+                <p id="indo1">+62-839-7270-101</p>
+                <p id="indo2">Indonesia</p>
+              </div>
+              <div class="isiteleponinternasional">
+                <p id="inter1">+62-839-7270-202</p>
+                <p id="inter2">Internasional</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="isikontakchatbot">
+            <div class="kontakchatbot">
+              <div class="logochatbot">
+                <i id="logochatbott" data-feather="message-square"></i>
+              </div>
+              <div class="judulchatbot"><b>Melalui Chatbot</b></div>
+              <div class="tekschatbot">
+                <p>Kami menyediakan kontak melalui chatbot. Silakan klik link di bawah untuk mengakses chatbot terbaru. Tersedia setiap hari, 24/7.</p>
+              </div>
+              <div class="tombolchatbot">
+                <a id="tombolchatbott" href="https://chat.openai.com/chat">Chat Sekarang!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="break1"></section>
+
+      <section class="footer">
+        <div class="cont-bottommenu">
+          <h1>Dutak Resto</h1>
+          <a class = 'bottommenu-items' href="home.html">Home</a>
+          <a class = 'bottommenu-items' href="pricing.html">Menu</a>
+          <a class = 'bottommenu-items' href="faq.html">FAQs</a>
+          <a class = 'bottommenu-items' href="lokasi.html">Location</a>
+        </div>
+        <div class="cont-alamat">
+          <h1 id="namaalamat">Alamat</h1>
+          <p>Dutak Resto,</p>
+          <p>No.727b</p>
+          <p>Jln. Kemiri Barat</p>
+          <p>Kec. UKSW Setia</p>
+          <p>Salatiga</p>
+          <p>Jawa tengah</p>
+          <p>Indonesia</p>
+          <p>50711</p>
+
+        </div>
+        <div class="cont-sosmed">
+          <div class="sosmedtop">
+            <h1>Dutak Resto</h1>
+            <div class="sosmedlink">
+              <a class="sosmedfooter" href="https://www.youtube.com/">
+                <i class="sosmedfooterlogo" data-feather="youtube"></i>
+              </a>
+              <a class="sosmedfooter" href="https://www.linkedin.com/">
+                <i class="sosmedfooterlogo" data-feather="linkedin"></i>
+              </a>
+              <a class="sosmedfooter" href="https://www.twitter.com/">
+                <i class="sosmedfooterlogo" data-feather="twitter"></i>
+              </a>
+              <a class="sosmedfooter" href="https://www.instagram.com/">
+                <i class="sosmedfooterlogo" data-feather="instagram"></i>
+              </a>
+            </div>
+          </div>
+          <div class="mycredit">
+            <h5>This website was made with blood, sweat, and tears from yours truly:</h5>
+            <p class="me">Axell Amadeus Siagian</p>
+            <p class="me">672021213</p>
+            <p class="me">Pemrograman Web B (TC223B)</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- banner end -->
+    </div>
+
+    <!-- feather (icons) -->
+    <script>
+      feather.replace()
+    </script>
+
+    <!--Javascript-->
+    <script src="javascript/script.js"></script>
+  </body>
+</html>

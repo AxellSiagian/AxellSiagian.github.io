@@ -1,0 +1,132 @@
+[
+  {
+    "nameitem": "Es Kelapa Muda",
+    "hargaitem": "85k",
+    "deskripsiitem": "Air kelapa segar yang disajikan dengan es, dihias dengan perasan jeruk nipis segar."
+  },
+  {
+    "nameitem": "Jus Jeruk Kweni",
+    "hargaitem": "75k",
+    "deskripsiitem": "Jus manis dan asam yang terbuat dari buah jeruk Kweni, buah lokal dengan rasa yang unik."
+  },
+  {
+    "nameitem": "Es Timun Suri",
+    "hargaitem": "70k",
+    "deskripsiitem": "Minuman sejuk dan menyegarkan yang terbuat dari irisan buah Timun Suri lokal, dicampur dengan es dan sirup gula."
+  },
+  {
+    "nameitem": "Teh Jahe Susu",
+    "hargaitem": "65k",
+    "deskripsiitem": "Campuran teh jahe yang menghangatkan dan pedas dengan susu, disajikan panas atau dingin."
+  },
+  {
+    "nameitem": "Jus Alpukat",
+    "hargaitem": "80k",
+    "deskripsiitem": "Smoothie alpukat yang lembut dan krimi, terbuat dari alpukat segar dan sedikit susu kental manis."
+  },
+  {
+    "nameitem": "Air Tebu",
+    "hargaitem": "75k",
+    "deskripsiitem": "Minuman manis dan menyegarkan yang terbuat dari jus tebu segar."
+  },
+  {
+    "nameitem": "Jus Buah Naga",
+    "hargaitem": "60k",
+    "deskripsiitem": "Jus merah muda yang indah terbuat dari buah naga segar, dicampur dengan es dan sedikit madu."
+  },
+  {
+    "nameitem": "Es Campur",
+    "hargaitem": "85k",
+    "deskripsiitem": "Dessert buah-buahan dan jelly yang dicampur, disajikan dalam gelas dengan sirup manis dan es serut."
+  },
+  {
+    "nameitem": "Martini Buah Naga",
+    "hargaitem": "200k",
+    "deskripsiitem": "Varian manis dan buah-buahan dari martini klasik, terbuat dari jus buah naga dan vodka."
+  },
+  {
+    "nameitem": "Lychee Martini",
+    "hargaitem": "180k",
+    "deskripsiitem": "Martini yang manis dan lembut terbuat dari jus leci dan vodka, dihias dengan buah leci segar."
+  },
+  {
+    "nameitem": "Negroni Kopi",
+    "hargaitem": "150k",
+    "deskripsiitem": "Varian unik dan kompleks dari Negroni klasik, terbuat dari gin yang diinfus kopi, vermout manis, dan Campari."
+  },
+  {
+    "nameitem": "Mojito Mangga",
+    "hargaitem": "175k",
+    "deskripsiitem": "Varian tropis dari mojito klasik, terbuat dari mangga segar, daun mint, dan rum, disajikan dengan es."
+  },
+  {
+    "nameitem": "Sate Ayam",
+    "hargaitem": "250k",
+    "deskripsiitem": "Potongan daging ayam empuk dibakar dengan bumbu kacang yang lezat, disajikan dengan nasi hangat dan acar segar untuk menambah cita rasa segar dan renyah pada hidangan ini."
+  },
+  {
+    "nameitem": "Nasi Goreng Spesial",
+    "hargaitem": "375k",
+    "deskripsiitem": "Nasi goreng yang terbuat dari beras yang digoreng bersama udang, ayam, dan telur, lalu dicampur dengan berbagai bumbu seperti kecap manis dan cabai untuk menambah cita rasa gurih dan pedas pada hidangan ini."
+  },
+  {
+    "nameitem": "Gado-Gado:",
+    "hargaitem": "275k",
+    "deskripsiitem": "Campuran sayuran segar seperti kacang panjang, kubis, dan mentimun disajikan dengan bumbu kacang yang lezat dan diberi taburan emping sebagai toppingnya."
+  },
+  {
+    "nameitem": "Sop Buntut",
+    "hargaitem": "200k",
+    "deskripsiitem": "Sop yang terbuat dari ekor sapi yang empuk, dengan kuah yang gurih dan kental, disajikan dengan nasi hangat dan taburan bawang goreng sebagai toppingnya."
+  },
+  {
+    "nameitem": "Pepes Ikan",
+    "hargaitem": "350k",
+    "deskripsiitem": "Ikan segar yang dibalut dengan daun pisang lalu dibakar dengan bumbu rempah yang khas Indonesia, membuat hidangan ini memiliki cita rasa yang kaya akan rempah-rempah."
+  },
+  {
+    "nameitem": "Rendang Daging",
+    "hargaitem": "225k",
+    "deskripsiitem": "Daging sapi yang dimasak dengan rempah-rempah khas Indonesia, membuat hidangan ini memiliki rasa yang kaya, empuk, dan sangat lezat."
+  },
+  {
+    "nameitem": "Soto Ayam",
+    "hargaitem": "400k",
+    "deskripsiitem": "Sup ayam dengan kuah kaldu yang lezat, disajikan dengan potongan ayam empuk, mie, dan bumbu seperti bawang goreng dan daun seledri."
+  },
+  {
+    "nameitem": "Bakmi Goreng",
+    "hargaitem": "250k",
+    "deskripsiitem": "Mi goreng yang terbuat dari mie kuning yang digoreng bersama potongan daging ayam dan sayuran, disajikan dengan acar segar dan taburan bawang goreng."
+  },
+  {
+    "nameitem": "Ayam Goreng",
+    "hargaitem": "325k",
+    "deskripsiitem": "Potongan ayam yang digoreng dengan tepung yang renyah dan bumbu yang lezat, disajikan dengan nasi hangat dan sambal sebagai pelengkapnya."
+  },
+  {
+    "nameitem": "Nasi Uduk",
+    "hargaitem": "475k",
+    "deskripsiitem": "Nasi yang dimasak dengan santan dan daun pandan, membuat hidangan ini memiliki aroma yang harum dan tekstur yang lembut, disajikan dengan lauk ayam goreng dan acar segar."
+  },
+  {
+    "nameitem": "Bakso",
+    "hargaitem": "175k",
+    "deskripsiitem": "Bola daging yang terbuat dari campuran daging sapi dan tepung tapioka, disajikan dengan mie, sayuran, dan kuah kaldu yang lezat"
+  },
+  {
+    "nameitem": "Cap Cay",
+    "hargaitem": "68k",
+    "deskripsiitem": "Campuran sayuran segar yang di tumis dengan bumbu kecap, lalu ditambahkan dengan potongan daging ayam dan udang yang membuat hidangan ini lezat dan bergizi."
+  },
+  {
+    "nameitem": "Martabak",
+    "hargaitem": "310k",
+    "deskripsiitem": "Martabak yang terbuat dari adonan tepung terigu dan telur, lalu diisi dengan berbagai bahan seperti daging, telur, dan sayuran yang disajikan dengan saus kecap manis."
+  },
+  {
+    "nameitem": "Mie Ayam",
+    "hargaitem": "123k",
+    "deskripsiitem": "Mie kuning yang disajikan dengan potongan daging ayam, sayuran, dan kuah kaldu yang lezat, membuat hidangan ini nikmat dan bergizi."
+  }
+]
